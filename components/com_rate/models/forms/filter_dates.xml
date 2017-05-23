@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="filter">
+        <field name="search" type="text" hint="COM_RATE_SEARCH_FILTER_SUBMIT"
+               label="COM_USERS_FILTER_SEARCH_DESC"
+               class="js-stools-search-string" />
+
+        <field name="date_from_dateformat" label="COM_RATE_LIST_LBL_DATE_DATE_FILTER_FROM" type="calendar" onchange="this.form.submit();" filter="safehtml" class="inputbox"/>
+<field name="date_to_dateformat" label="COM_RATE_LIST_LBL_DATE_DATE_FILTER_TO" type="calendar" onchange="this.form.submit();" filter="safehtml" class="inputbox"/>
+<field name="time" label="COM_RATE_FORM_LBL_DATE_TIME" type="list" onchange="this.form.submit();">
+  <option value="">---</option>
+  <option value="1">COM_RATE_DATES_TIME_OPTION_1</option>
+  <option value="2">COM_RATE_DATES_TIME_OPTION_2</option>
+</field>
+
+
+    </fields>
+</form>
